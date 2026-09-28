@@ -1,0 +1,12 @@
+# Securitate: IGNORA cheile secrete. NU le urca pe internet!
+credentials.json
+api_key.txt
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# MacOS/Windows trash
+.DS_Store
+Thumbs.db
