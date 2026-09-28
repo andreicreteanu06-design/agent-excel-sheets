@@ -162,8 +162,11 @@ def interactive_shell(sheet_url):
         except Exception as e:
             print(f"[-] Eroare de sistem: {e}")
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--url", type=str, help="URL Google Sheet", required=False, default="")
     args = parser.parse_args()
     interactive_shell(args.url)
+
+if __name__ == "__main__":
+    main()
